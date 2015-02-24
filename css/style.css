@@ -8,6 +8,9 @@ body {
 	padding-top: 60px;
 	margin-bottom: 60px;
 }
+.btn-control {
+	margin: 25px 0 0 0;
+}
 
 
 
@@ -23,6 +26,15 @@ body {
 		.form-control {
 			margin-bottom: 0px;
 		}
+	}
+	.control-label {
+		font-weight: normal;
+	}
+	.table td {
+		height: 50px;
+	}
+	.label {
+		font-weight: normal; font-size: 13px;
 	}
 
 
