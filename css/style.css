@@ -11,6 +11,9 @@ body {
 .btn-control {
 	margin: 25px 0 0 0;
 }
+.btn-control button {
+	margin-bottom: 5px;
+}
 
 
 
