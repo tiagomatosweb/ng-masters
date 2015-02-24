@@ -36,6 +36,9 @@ body {
 	.label {
 		font-weight: normal; font-size: 13px;
 	}
+	.active {
+		background: #666 !important;
+	}
 
 
 /* Footer
