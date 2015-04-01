@@ -12,13 +12,12 @@
 	  };
 	}
 
-	if(!window.Global){
+	if(!window.Global) {
 			window.Global = {};
 	}
-	if(!Global.angular_dependencies){
+	if(!Global.angular_dependencies) {
 		Global.angular_dependencies = [];
 	}
-
 
 	angular.module('myapp', Global.angular_dependencies);
 	angular.module('myapp').config(['$interpolateProvider', function($interpolateProvider){
